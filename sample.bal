@@ -20,7 +20,7 @@ service / on new http:Listener(9090) {
     }
 }
 
-service /test2 on new http:Listener(9090) {
+service /test2 on new http:Listener(9091) {
 
     # A resource for generating greetings
     # + name - the input string name
